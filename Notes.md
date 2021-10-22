@@ -8,29 +8,29 @@ POST: http://localhost:3000/
 siunciamas objektas
 
 ```
-latvija.json {
-    name: 'Latvija',
-    size: 55000,
+mole.json {
+    name: 'Mole',
+    size: 30,
 }
 ```
 
-GET: http://localhost:3000/latvija/
-gausim Latvijos objekta
+GET: http://localhost:3000/mole/
+gausim Mole objekta
 
-PUT: http://localhost:3000/laTvija/
+PUT: http://localhost:3000/moLe/
 
 ```
 {
-    name: 'Latvija',
-    size: 75000,
+    name: 'Mole',
+    size: 50,
 }
 ```
 
-PUT: http://localhost:3000/latviJa/name/xxx/
+PUT: http://localhost:3000/mole/name/xxx/
 `name` atnaujinti draudziama
 
 DELETE: http://localhost:3000/
 DELETE: http://localhost:3000/xyz/
 neegzistuojantys grazina klaida 404
 
-DELETE: http://localhost:3000/LATVIJA/
+DELETE: http://localhost:3000/MOLE/
